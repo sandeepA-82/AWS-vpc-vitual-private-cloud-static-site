@@ -1,0 +1,13 @@
+aws-vpc-static-site/
+│
+├── website/
+│   └── index.html
+│
+├── docs/
+│   └── architecture.png   (add later)
+│
+├── scripts/
+│   └── setup_steps.md
+│
+├── README.md
+└── .gitignore
