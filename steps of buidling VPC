@@ -1,0 +1,20 @@
+# AWS Setup Steps
+
+1. Create VPC
+2. Create Public and Private Subnets
+3. Attach Internet Gateway to Public Subnet
+4. Create NAT Gateway in Public Subnet
+5. Configure Route Tables:
+   - Public subnet → Internet Gateway
+   - Private subnet → NAT Gateway
+6. Launch EC2 in Private Subnet
+7. Configure Security Groups:
+   - Allow HTTP (80)
+   - Allow SSH (22) if needed
+8. Upload website files to EC2
+9. Run server:
+   python3 -m http.server 8000
+10. Create Application Load Balancer
+11. Configure Target Group (port 8000)
+12. Attach EC2 instance
+13. Access site via Load Balancer DNS
