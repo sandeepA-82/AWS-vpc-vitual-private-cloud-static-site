@@ -36,3 +36,5 @@ How to Run Locally:-
     OR
 
 Basically we turn ON  the EC2 servers, and  we will access the site using the "public IP adderss" EC2 instance and use "http:public_IP:port_number".
+
+
